@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  background-color: darkgoldenrod;
+}
+
+body {
+  .header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+  }
+
+  .question-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: antiquewhite;
+  }
+
+  .question-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 200px;
+    font-size: 1.5rem;
+    margin: 30px;
+    background-color: aqua;
+  }
+
+  .questions {
+    background-color: aqua;
+  }
+
+  .answer-button {
+  }
+
+  .categories {
+  }
+}
