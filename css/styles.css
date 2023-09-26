@@ -105,3 +105,10 @@
   background-color: lightgrey;
   padding: 5px;
 }
+
+/* pushes content down
+
+.question-box img {
+  max-width: 10%;
+  background-color: rgba(0, 0, 0, 0);
+}
