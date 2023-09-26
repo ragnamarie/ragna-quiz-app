@@ -1,7 +1,8 @@
 * {
   box-sizing: border-box;
   margin: 0px;
-  background-color: darkgoldenrod;
+  background-color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -9,7 +10,10 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: grey;
+    height: 50px;
+    font-size: xx-large;
+    background-color: lightgray;
+    border-bottom: 2px solid black;
     text-align: center;
   }
 
@@ -17,9 +21,8 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    flex-direction: column;
     justify-content: center;
-    background-color: antiquewhite;
+    flex-direction: column;
   }
 
   .question-box {
@@ -27,10 +30,11 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    min-width: 80%;
+    width: 80%;
     min-height: 200px;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     margin: 30px;
+    margin-top: 70px;
     background-color: aqua;
     gap: 50px;
   }
@@ -38,6 +42,7 @@ body {
   .questions {
     background-color: aqua;
     padding: 20px;
+    font-size: 4vw;
   }
 
   .answer-button {
@@ -48,9 +53,18 @@ body {
     align-self: flex-start;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     flex-direction: row;
+    background-color: aqua;
+    gap: 10px;
+    margin: 20px;
   }
 
-  .categories {
+  .question-box__container--categories {
+    background-color: blue;
+    color: antiquewhite;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 0.5em;
   }
 }
