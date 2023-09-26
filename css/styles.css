@@ -46,9 +46,6 @@
   gap: 50px;
 }
 
-.bookmarked {
-}
-
 .questions {
   background-color: aqua;
   padding: 20px;
@@ -88,6 +85,14 @@
   font-size: 0.5em;
 }
 
+.question-box__bookmarks {
+  max-width: 8%;
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 11%;
+  right: 11%;
+}
+
 .footer {
   display: flex;
   justify-content: space-evenly;
@@ -105,12 +110,4 @@
   height: 100%;
   background-color: lightgrey;
   padding: 5px;
-}
-
-.question-box img {
-  max-width: 8%;
-  background-color: rgba(0, 0, 0, 0);
-  position: absolute;
-  top: 8%;
-  right: 12%;
 }
