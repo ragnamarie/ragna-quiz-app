@@ -44,6 +44,7 @@
   margin: 20px;
   background-color: aqua;
   gap: 50px;
+  position: relative;
 }
 
 .questions {
@@ -111,4 +112,12 @@
   height: 100%;
   background-color: lightgrey;
   padding: 5px;
+}
+
+.question-box img {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0);
+  right: 1%;
+  top: -5%;
+  width: 8%;
 }
