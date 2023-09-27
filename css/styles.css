@@ -50,8 +50,9 @@
 .questions {
   background-color: aqua;
   padding: 20px;
-  font-size: 4vw;
+  font-size: 3vw;
   text-align: center;
+  padding-top: 100px;
 }
 
 .answer-button {
@@ -118,6 +119,6 @@
   position: absolute;
   background-color: rgba(0, 0, 0, 0);
   right: 1%;
-  top: -5%;
-  width: 8%;
+  top: -4%;
+  width: 10%;
 }
