@@ -1,0 +1,39 @@
+.form-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  min-height: 200px;
+  font-size: 1.5em;
+  gap: 10px;
+  background-color: aqua;
+  position: relative;
+}
+
+textarea {
+  font-size: 1vh;
+  width: 90%;
+}
+
+label {
+  font-size: 1vh;
+  width: 90%;
+  background-color: aqua;
+}
+
+input {
+  font-size: 1vh;
+  width: 90%;
+}
