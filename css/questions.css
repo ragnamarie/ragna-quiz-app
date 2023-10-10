@@ -37,3 +37,28 @@ input {
   font-size: 1vh;
   width: 90%;
 }
+
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  background-color: aqua;
+  border: none;
+  box-shadow: 0 0px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:hover {
+  box-shadow: 0 0px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:active {
+  background-color: aqua;
+  box-shadow: 0 0px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transform: translateY(4px);
+}
