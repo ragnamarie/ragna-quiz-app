@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const questionSection = document.querySelector(
     '[data-js="question-section"]'
   );
-
   // please add questions here
   const questions = [
     "What is the other name of Sporty Spice?",

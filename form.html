@@ -6,22 +6,23 @@
     <title>QUIZ APP</title>
     <link rel="stylesheet" href="./css/global.css" />
     <link rel="stylesheet" href="./css/questions.css" />
+    <script src="./js/form.js"></script>
   </head>
 
   <body>
-    <header class="header">QUIZ APP</header>
+        <header class="header">QUIZ TIME</header>
+        <main class="form-section">
+            <div class ="form-box">
+                <form class ="form-box__input" data-js="form">
+                    <label for="your-question">ADD A NEW QUESTION!</label>
+                    <textarea name="question" id="question"></textarea>
+                    <label for="answer">ADD ITS RESPECTIVE ANSWER!</label>
+                    <textarea name="answer" id="answer"></textarea>
+                    <button type="submit">SEND</button>
+                </form>
+            </div>
+        </main>
 
-    <main>
-        <section class="form-section">
-          <form>
-            <textarea>YOUR QUESTION</textarea>
-            <textarea>YOUR ANSWER</textarea>
-            <label for="TAG">Please also add tags:</label>
-            <input type="text" name="TAG"/>
-            <button type="submit">SUBMIT</button>
-          </form>
-        </section>
-      </main>
     <footer class="footer">
       <a href=./index.html>
         <img src="./images/home.png" alt="HOME"></img>
@@ -29,11 +30,11 @@
       <a href=./bookmarks.html>
         <img src="./images/bookmark_transparent.png" alt="BOOKMARKS"></img>
       </a>
-      <a href=./profile.html>
-        <img src="./images/profile.png" alt="PROFILE"></img>
-      </a>
       <a href="./form.html">
         <img src="./images/add_filled.png" alt="QUESTION" />
+      </a>
+      <a href=./profile.html>
+        <img src="./images/profile.png" alt="PROFILE"></img>
       </a>
     </footer>
   </body>
