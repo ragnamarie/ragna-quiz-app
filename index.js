@@ -55,9 +55,15 @@ document.addEventListener("DOMContentLoaded", function () {
       questionBox.append(answerButton);
       //trying to show answer
       answerButton.addEventListener("click", () => {
-        answerButton.classList.add("question-box__answer-button");
-        answerButton.textContent = answers[counter];
-        questionBox.append(answerButton);
+        if (answerButton.textContent == "SHOW ANSWER") {
+          answerButton.classList.add("question-box__answer-button");
+          answerButton.textContent = answers[counter];
+          questionBox.append(answerButton);
+        } else {
+          answerButton.classList.add("question-box__answer-button");
+          answerButton.textContent = "SHOW ANSWER";
+          questionBox.append(answerButton);
+        }
       });
       //creates category boxes container
       const boxContainer = document.createElement("div");
