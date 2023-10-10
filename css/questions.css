@@ -1,4 +1,4 @@
-.question-section {
+.form-section {
   width: 100%;
   display: flex;
   align-items: center;
@@ -9,7 +9,7 @@
   margin-bottom: 75px;
 }
 
-.question-box {
+form {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -17,19 +17,28 @@
   width: 80%;
   min-height: 200px;
   font-size: 1.5em;
-  gap: 20px;
+  gap: 10px;
   background-color: aqua;
   position: relative;
 }
 
-.question-box__questions {
-  background-color: aqua;
-  padding: 20px;
-  font-size: 2vh;
-  padding-top: 30px;
+textarea {
+  font-size: 1vh;
+  width: 90%;
 }
 
-.question-box__answer-button {
+label {
+  font-size: 1vh;
+  width: 90%;
+  background-color: aqua;
+}
+
+input {
+  font-size: 1vh;
+  width: 90%;
+}
+
+button {
   display: inline-block;
   padding: 15px 25px;
   cursor: pointer;
@@ -42,42 +51,14 @@
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-.question-box__answer-button:hover {
+button:hover {
   box-shadow: 0 0px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-.question-box__answer-button:active {
+button:active {
   background-color: aqua;
   box-shadow: 0 0px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
   transform: translateY(4px);
-}
-
-.question-box__container {
-  align-self: flex-start;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex-direction: row;
-  background-color: aqua;
-  gap: 10px;
-  margin: 20px;
-}
-
-.question-box__container__categories {
-  background-color: blue;
-  color: antiquewhite;
-  border-radius: 10px;
-  padding: 10px;
-  font-size: 0.5em;
-}
-
-.question-box img {
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0);
-  right: 1%;
-  top: -4%;
-  width: 10%;
-  cursor: pointer;
 }
