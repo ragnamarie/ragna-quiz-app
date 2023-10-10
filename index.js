@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
       bookmark.setAttribute("src", "images/bookmark.png");
       bookmark.setAttribute("alt", "BOOKMARKS");
       questionBox.append(bookmark);
-      // need to add button functionality here?
+      // trying to make button change
       bookmark.addEventListener("click", () => {
         bookmark.setAttribute("src", "images/bookmark_filled.png");
         bookmark.setAttribute("alt", "BOOKMARKS");
