@@ -6,21 +6,22 @@
     <title>QUIZ APP</title>
     <link rel="stylesheet" href="./css/global.css" />
     <link rel="stylesheet" href="./css/questions.css" />
+    <link rel="stylesheet" href="./css/cards.css" />
     <script src="./js/form.js"></script>
   </head>
 
   <body>
         <header class="header">QUIZ TIME</header>
-        <main class="form-section">
-            <div class ="form-box">
-                <form class ="form-box__input" data-js="form">
-                    <label for="question">ADD A NEW QUESTION!</label>
-                    <textarea name="question" id="question"></textarea>
-                    <label for="answer">ADD ITS RESPECTIVE ANSWER!</label>
-                    <textarea name="answer" id="answer"></textarea>
-                    <button type="submit">SEND</button>
-                </form>
-            </div>
+        <main class="question-section" data-js="question-section">
+          <fieldset>
+            <form class ="form-box__input" data-js="form">
+            <label for="question">ADD A NEW QUESTION!</label>
+            <textarea name="question" id="question"></textarea>
+            <label for="answer">ADD ITS RESPECTIVE ANSWER!</label>
+            <textarea name="answer" id="answer"></textarea>
+            <button type="submit">SUBMIT</button>
+          </form>
+        </fieldset>
         </main>
 
     <footer class="footer">
