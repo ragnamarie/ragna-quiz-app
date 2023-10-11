@@ -20,9 +20,10 @@ document.addEventListener("DOMContentLoaded", function () {
     "Copenhagen",
   ];
 
+  //adds all questions to homepage
   function addQuestionBox(numberOfQuestions) {
     for (let counter = 0; counter < numberOfQuestions; counter++) {
-      //creates box
+      // creates box
       const questionBox = document.createElement("div");
       questionBox.classList.add("question-box");
       questionSection.append(questionBox);
@@ -53,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
       answerButton.classList.add("question-box__answer-button");
       answerButton.textContent = "SHOW ANSWER";
       questionBox.append(answerButton);
-      //trying to show answer
+      //shows answer
       answerButton.addEventListener("click", () => {
         if (answerButton.textContent == "SHOW ANSWER") {
           answerButton.classList.add("question-box__answer-button");
@@ -78,5 +79,6 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     }
   }
+
   addQuestionBox(questions.length);
 });
