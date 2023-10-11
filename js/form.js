@@ -7,10 +7,6 @@ document.addEventListener("DOMContentLoaded", function () {
     // const formData = new FormData(event.target);
     // const data = Object.fromEntries(formData);
 
-    // console.log(data);
-    // console.log(data.question);
-    // console.log(data.answer);
-
     storeInput();
   });
 
