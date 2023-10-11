@@ -4,16 +4,13 @@ document.addEventListener("DOMContentLoaded", function () {
   form.addEventListener("submit", (event) => {
     event.preventDefault();
 
-    const formData = new FormData(event.target);
-    const data = Object.fromEntries(formData);
-
-    console.log(data);
-    console.log(data.question);
-    console.log(data.answer);
+    // const formData = new FormData(event.target);
+    // const data = Object.fromEntries(formData);
 
     storeInput();
   });
 
+  //trying to create array here
   function storeInput() {
     // Initialize an empty array
     const questionArray = [];
